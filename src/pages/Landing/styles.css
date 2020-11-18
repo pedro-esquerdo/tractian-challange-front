@@ -1,0 +1,109 @@
+#page-landing{
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-primary);
+    background: var(--color-background);
+
+}
+
+.logo-container img{
+    filter: invert(18%) sepia(77%) saturate(5363%) hue-rotate(231deg) brightness(89%) contrast(93%);
+    width:70%;
+    max-width: 70vh;
+    height:70%;
+    max-height: 70vh;
+    height: 10rem;
+}
+
+.hero-image{
+    width:60%;
+    max-width: 60vh;
+    height:60%;
+    max-height: 60vh;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+.logo-container h2{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 4.6rem;
+    margin-top: -1.2rem;
+    margin-bottom: 2rem;
+}
+
+.buttons-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0rem;
+
+}
+
+.buttons-container a{
+    width: 30rem;
+    height: 10.4rem;
+    border-radius: 2rem;
+    margin-top: 1.6rem;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+    /*font: 700 1.7rem Archivo;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--color-primary);
+    text-decoration: none;
+
+    transition: background-color 0.4s;
+}
+
+.buttons-container a.consultar{
+    background: var(--color-primary-lighter);
+}
+
+.buttons-container a.inserir{
+    background: var(--color-primary-lighter);
+}
+
+.buttons-container a.editar{
+    background: var(--color-primary-lighter);
+}
+
+.buttons-container a.deletar{
+    background: var(--color-primary-lighter);
+}
+
+.buttons-container a.consultar:hover {
+    background: var(--color-primary-light);
+    color: var(--color-title-in-primary);
+}
+
+.buttons-container a.inserir:hover {
+    background: var(--color-primary-light);
+    color: var(--color-title-in-primary);
+}
+
+.buttons-container a.editar:hover {
+    background: var(--color-primary-light);
+    color: var(--color-title-in-primary);
+}
+
+.buttons-container a.deletar:hover {
+    background: var(--color-warning);
+    color: var(--color-title-in-primary);
+}
