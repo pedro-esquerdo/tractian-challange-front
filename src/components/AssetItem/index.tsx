@@ -26,7 +26,7 @@ const AssetItem: React.FC<AssetItemProps> = ({asset}) => {
                     <img src="https://www.empresadeusinagem.com.br/fresadoras/imagens/prensa-hidraulica-industrial.jpg" 
                     alt="Prensa Hidráulica SDX 302S"/>
                     <div>
-                        <strong> {asset.model} </strong>
+                        <strong> {asset.model} - {asset.location}</strong>
                         <span> {asset.name} ({asset._id})</span>
                     </div>
                 </header>
