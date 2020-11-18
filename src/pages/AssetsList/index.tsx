@@ -78,7 +78,6 @@ function AssetList(){
                     return <AssetItem key={asset._id} asset={asset}/>
                 })}
             </main>
-
         </div>
     )
 }
